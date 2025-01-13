@@ -9,6 +9,8 @@ function draw() {
   eyes(0,0)
 
 }
+
+//NEEDS THESE VARIABLES FOR IT TO WORK
 let blink = 1;
 let timer = 100;
 function eyes (x, y){
@@ -59,7 +61,7 @@ function eyes (x, y){
   else{
     timer -=1
   }
-  text(timer, 50, 50)
+
 
 
 }
